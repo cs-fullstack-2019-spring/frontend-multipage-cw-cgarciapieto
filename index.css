@@ -1,0 +1,83 @@
+.container
+{
+     display: grid;
+    padding: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-areas: "nav1 nav2 nav3 nav4"
+                          "main main main main"
+                          "footer footer footer footer";
+
+ }
+
+#home{
+    grid-area: nav1;
+    text-align: center;
+
+
+}
+
+#about{
+    grid-area: nav2;
+    text-align: center;
+}
+
+#projects{
+    grid-area: nav3;
+    text-align: center;
+
+}
+
+#contacts{
+    grid-area: nav4;
+    text-align: center;
+
+
+}
+
+#mainBody{
+    padding: 200px;
+    font-size: 20px;
+    grid-area: main;
+    text-align: center;
+    position: center;
+    background-color: red;
+
+
+}
+
+#foot{
+    grid-area: footer;
+    text-align: left;
+
+
+}
+
+body{
+    background-color: red;
+}
+
+.about{
+    background-color: blue;
+}
+
+.contacts{
+    background-color: cornflowerblue;
+}
+
+.projects{
+    background-color: green;
+}
+.copy{
+    font-size: 60px;
+}
+
+.hello{
+    font-size: 30px;
+}
+
+.code
+{
+    font-size: 20px;
+}
