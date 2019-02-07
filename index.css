@@ -1,4 +1,6 @@
-/*this call the entire container and postions the navigation items into a grid system*/
+/*this call the entire container and postions the navigation items into a grid- area system
+there are four columns and 3 rows with a white background of white smoke
+*/
 
 
 
@@ -14,7 +16,8 @@
                           "footer footer footer footer";
 
  }
-/*this calls the id to and postion in the first column*/
+/*this calls the id to and postion in the first column, also aligns text to the center*/
+
 #home{
     grid-area: nav1;
     text-align: center;
