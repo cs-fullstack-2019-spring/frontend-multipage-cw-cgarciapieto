@@ -1,3 +1,7 @@
+/*this call the entire container and postions the navigation items into a grid system*/
+
+
+
 .container
 {
      display: grid;
@@ -10,14 +14,14 @@
                           "footer footer footer footer";
 
  }
-
+/*this calls the id to and postion in the first column*/
 #home{
     grid-area: nav1;
     text-align: center;
 
 
 }
-
+/*this calls the id to and postion in the two column*/
 #about{
     grid-area: nav2;
     text-align: center;
